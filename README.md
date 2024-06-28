@@ -31,7 +31,7 @@ Magical Arena is a simple turn-based game where two players battle each other un
    git clone <your-repo-url>
    cd magical-arena
    
-2. ## Build the project:
+ ## Build the project:
 
 
 Run the game:
@@ -59,7 +59,7 @@ Player A health reduced by 5 to 45
 
 Player B has died. Player A wins!
 ```
-3. ## Testing
+ ## Testing
 To run the unit tests, use the following command:
 ```bash
 mvn test
