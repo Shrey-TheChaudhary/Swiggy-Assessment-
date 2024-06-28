@@ -31,11 +31,11 @@ Magical Arena is a simple turn-based game where two players battle each other un
    git clone <your-repo-url>
    cd magical-arena
    
-## Build the project:**
+2. ## Build the project:
 
 
 Run the game:
-bashCopyjava -jar target/magical-arena-1.0-SNAPSHOT.jar
+java -jar target/magical-arena-1.0-SNAPSHOT.jar
 Usage
 The game runs in the console. It will simulate a match between two predefined players with the following attributes:
 
@@ -59,12 +59,12 @@ Player A health reduced by 5 to 45
 
 Player B has died. Player A wins!
 ```
-Testing
+3. ## Testing
 To run the unit tests, use the following command:
 ```bash
-bashCopymvn test
+mvn test
 ```
-Project Structure
+## Project Structure
 ```bash
 Copymagical-arena/
 ├── src/
@@ -85,12 +85,6 @@ Copymagical-arena/
 ├── pom.xml
 └── README.md
 ```
-Commit History
-Frequent and meaningful commits have been made to ensure the project is well-documented and the development process is transparent.
-Contributing
-Feel free to fork this repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
